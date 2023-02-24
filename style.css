@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,500&display=swap");
 
 /*________________________________
         CUSTOM PROPERTY
@@ -75,7 +75,6 @@ button {
   cursor: pointer;
 }
 
-
 img,
 span,
 input,
@@ -109,7 +108,7 @@ button {
 }
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   /* font-size:  */
   scroll-behavior: smooth;
 }
@@ -407,24 +406,16 @@ ________________________________
   margin: 0 auto;
 }
 
-/* .grid{
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  grid-template-columns: repeat(3,1fr);
-
-} */
 
 /*________________________________
         HEADER  
-  ________________________________*/
+  ________________________________ */
 
-.header {
+/* .header {
   height: 7.5vh;
-  /* position: fixed;
+  position: fixed;
   top: 0;
-  left: 0; */
+  left: 0; 
   width: 100%;
   max-width: 1500px;
   margin-inline: auto;
@@ -495,6 +486,9 @@ ________________________________
     transform: translateX(0);
   }
 }
+.desktop-list {
+  display: none;
+}
 
 .navbar-list {
   display: flex;
@@ -505,7 +499,10 @@ ________________________________
 
 .navbar-link {
   margin-bottom: 30px;
-}
+} 
+
+ */
+
 
 /*________________________________
         HERO 
@@ -614,10 +611,9 @@ ________________________________
   background-color: var(--text-white);
   color: var(--bg-oxford-blue-2);
   font-weight: 700;
-
 }
 
-.view-code-btn{
+.view-code-btn {
   margin-bottom: 1rem;
 }
 
@@ -629,13 +625,13 @@ ________________________________
 /*________________________________
         MEDIA QUERIES 
   ________________________________*/
-@media (min-width: 425px){
-  .project-btn-group{
+@media (min-width: 425px) {
+  .project-btn-group {
     display: flex;
   }
-  .view-code-btn{
-  margin-bottom: 0;
-}
+  .view-code-btn {
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 550px) {
@@ -648,7 +644,9 @@ ________________________________
 @media (min-width: 768px) {
   .burger-menu {
     display: none;
+    pointer-events: none;
   }
+
   .hero .container {
     grid-template-columns: repeat(2, 1fr);
   }
