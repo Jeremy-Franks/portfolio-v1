@@ -67,7 +67,7 @@
   border: 1px solid var(--border-parussian-blue);
   color: var(--text-columbia-blue);
   background-color: transparent;
-  margin-inline: 2rem;
+  margin-inline: 1rem;
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
@@ -474,7 +474,8 @@ body {
   .view-code-btn {
     margin-bottom: 0;
   }
-}
+
+  
 
 @media (min-width: 550px) {
   .skills-flex {
