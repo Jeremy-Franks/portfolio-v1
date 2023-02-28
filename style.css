@@ -67,7 +67,7 @@
   border: 1px solid var(--border-parussian-blue);
   color: var(--text-columbia-blue);
   background-color: transparent;
-  margin-right: 3rem;
+  margin-inline: 2rem;
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
