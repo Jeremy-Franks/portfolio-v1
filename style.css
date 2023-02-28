@@ -232,6 +232,18 @@ body {
   ________________________________*/
 .container {
   padding-inline: 16px;
+
+}
+
+.bgElement{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: -100;
+  opacity: .4;
+  filter: blur(8px);
+  -webkit-filter: blur(60px);
+  animation: heroDeco3 60s linear infinite alternate;
 }
 
 .hover-1 {
@@ -292,7 +304,7 @@ body {
 }
 
 .card {
-  background-color: var(--bg-oxford-blue);
+  background-color: transparent;
   border: 1px solid var(--bg-parussian-blue);
   border-radius: 10px;
   padding: 1rem;
@@ -407,6 +419,15 @@ body {
 }
 
 @keyframes heroDeco2 {
+  0% {
+    transform: translateY(150px) rotate(0);
+  }
+  100% {
+    transform: translateY(0) rotate(1.4turn);
+  }
+}
+
+@keyframes heroDeco3 {
   0% {
     transform: translateY(150px) rotate(0);
   }
